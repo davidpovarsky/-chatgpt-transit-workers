@@ -1,0 +1,22 @@
+{
+  "name": "chatgpt-transit-workers",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "@modelcontextprotocol/ext-apps": "^1.5.0",
+    "agents": "^0.12.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260519.1",
+    "@types/node": "^25.9.0",
+    "typescript": "^6.0.3",
+    "wrangler": "^4.93.0"
+  }
+}
